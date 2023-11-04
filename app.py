@@ -7,7 +7,7 @@ import sys
 
 predict = PredictPipeline()
 
-st.title('*Diabetes Prediction*')
+st.title('*Diabetes Analysis*')
 # st.markdown("-------------------")
 st.markdown("**Note**: This project is in 'NO' means an actual way of testing a diabetes disease. This project is trained on past diabetes data and does not reflect actual testing by any means.")
 st.markdown("-------------------")
@@ -29,7 +29,7 @@ with cols2:
 with cols1:
     bmi = st.text_input('Bmi:', placeholder='Range: 18-35 bmi')
 with cols2:
-    diabetespedigreefunction = st.text_input('Heredity:', placeholder='Range: 0-2.5')
+    diabetespedigreefunction = st.text_input('Diabetes Pedigree Function:', placeholder='Range: 0-2.5')
 
 with cols1:
     age = st.text_input('Age: ')
